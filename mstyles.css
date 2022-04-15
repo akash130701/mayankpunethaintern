@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+
+span {
+  color: orange;
+}
+
+h5 {
+  margin-left: 10%;
+}
+
+.box {
+  height: 110px;
+  width: 110px;
+  border-style: solid;
+  margin-left: 10%;
+  border-color: #DDDDDD;
+  /* rounded corner */
+  border-radius: 25px;
+  text-align: center;
+  /* To align the divs horizontally */
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.items {
+    width: 30%;
+    margin: 0px auto;
+
+}
+
+.slick-slide {
+    margin: 10px
+}
+/* For img to fit inside div */
+.slick-slide img {
+    width: 100%;
+
+    border: 0px solid #fff
+}
+* {
+  box-sizing: border-box;
+}
